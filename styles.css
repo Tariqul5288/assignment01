@@ -11,6 +11,7 @@ body {
     max-width: 1320px;
     margin: 0 140px;
     width: auto;
+    align-items: center;
 }
 
 .header {
@@ -45,6 +46,7 @@ body {
     margin: 100px 390px;
     align-items: center;
     background: #fff;
+    margin-top: 100px;
 }
 
 .offer-text {
@@ -84,6 +86,7 @@ body {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Vectorrr.png);
     width: auto;
     height: 600px;
+    margin-top: 100px;
 }
 
 .welcome-text {
@@ -114,4 +117,30 @@ body {
     background: none;
     text-align: center;
     width: 120px;
+}
+
+.party-detail {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    height: 480px;
+    text-align: center;
+    padding: 100px 360px;
+    margin-top: 100px;
+}
+
+.party-detail-button {
+    background: red;
+    color: #fff;
+    padding: 16px 32px;
+    border-radius: 10px;
+    border: none;
+}
+
+.party-detail-button:hover {
+    background: rebeccapurple;
+    transition: 1s;
+}
+
+.announcement {
+    margin-top: 100px;
+    text-align: center;
 }
