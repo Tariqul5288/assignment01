@@ -10,6 +10,7 @@ body {
 .container {
     max-width: 1320px;
     margin: 0 140px;
+    width: auto;
 }
 
 .header {
@@ -81,7 +82,7 @@ body {
 
 .welcome {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Vectorrr.png);
-    width: 100%;
+    width: auto;
     height: 600px;
 }
 
