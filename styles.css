@@ -86,8 +86,8 @@ body {
 }
 
 .welcome-text {
-    padding: 110px 550px 140px 156px;
-    gap: 24px;
+    padding: 50px 550px 140px 156px;
+
 }
 
 .welcome-text h1 {
@@ -96,17 +96,21 @@ body {
     font-weight: 900;
     line-height: 88px;
     letter-spacing: 8px;
+    margin-bottom: 0;
 }
 
 .welcome-text p {
     color: rgba(255, 255, 255, 0.791);
     font-size: 18px;
     line-height: 30px;
+    margin-top: 20px;
 }
 
-.welcome-text button {
+.welcome-button {
     color: #fff;
     border: none;
     border-radius: 5px;
     background: none;
+    text-align: center;
+    width: 120px;
 }
