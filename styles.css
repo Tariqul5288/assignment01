@@ -6,3 +6,33 @@ body {
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
 }
+
+.container {
+    max-width: 1320px;
+    margin: 0 140px;
+}
+
+.header {
+    background-image: url(resources/Banner\ Image.png);
+    height: 600px;
+    border-radius: 16px;
+    background: black
+}
+
+.banner-heading {
+    padding: 175px 345px;
+
+}
+
+.banner-heading .h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+}
+
+.banner-heading .h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+}
