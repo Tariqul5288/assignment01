@@ -165,7 +165,8 @@ body {
 }
 
 .announcement-offer h1,
-.portfolio-text h1 {
+.portfolio-text h1,
+.newsletter-text h1 {
     color: #070211;
     font-size: 48px;
     font-weight: 900;
@@ -174,7 +175,8 @@ body {
 }
 
 .announcement-offer p,
-.portfolio-text p {
+.portfolio-text p,
+.newsletter-text p {
     color: #070211;
 }
 
@@ -226,4 +228,39 @@ body {
 
 .portfolio-img img {
     width: 400px;
+}
+
+.newsletter {
+    margin-top: 100px;
+    text-align: center;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.newsletter-icon img {
+    padding: 80px;
+    padding-bottom: 0;
+}
+
+.newsletter-text h1 {
+    padding-top: 0;
+}
+
+.newsletter-subscribe input {
+    border: none;
+    height: 32px;
+    width: 40%;
+    padding: 16px;
+    text-align: left;
+    font-size: 18px;
+    border-radius: 50px;
+}
+
+.newsletter-subscribe button {
+    height: 60px;
+    width: 30%;
+    border: none;
+    border-radius:
+        background-color: red;
+    font-size: 38px;
+    font-weight: 780;
 }
