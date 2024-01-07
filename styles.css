@@ -39,3 +39,42 @@ body {
     font-size: 72px;
     font-weight: 900;
 }
+
+.offer {
+    margin: 100px 390px;
+    align-items: center;
+    background: #fff;
+}
+
+.offer-text {
+    text-align: center;
+    gap: 20px;
+}
+
+.offer-text-01 {
+    gap: 30px;
+}
+
+.offer-text-01 h1 {
+    color: red;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.offer-text-01 p {
+    font-size: 25px;
+    font-weight: 500;
+    color: red;
+}
+
+.offer-text-02 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+}
+
+.offer-img {
+    width: 50%;
+    height: 500px;
+
+}
