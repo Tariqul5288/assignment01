@@ -151,7 +151,7 @@ body {
 }
 
 .announcement-offer {
-    width: 390px;
+    width: 350px;
     height: auto;
     text-align: left;
 }
@@ -189,6 +189,23 @@ body {
     border-radius: 460px;
     /* padding: 20px; */
     border-style: ridge;
+}
+
+.announcement-grtings h1 {
+    color: red;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.announcement-grtings p {
+    color: #070211;
+    margin-top: 5px;
+    margin-bottom: 18px;
+}
+
+.announcement-grtings img {
+    margin-top: 16px;
 }
 
 .test {
