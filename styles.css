@@ -245,22 +245,30 @@ body {
     padding-top: 0;
 }
 
+.newsletter-subscribe {
+    padding: 50px 0;
+}
+
 .newsletter-subscribe input {
     border: none;
-    height: 32px;
+    height: 30px;
     width: 40%;
     padding: 16px;
     text-align: left;
     font-size: 18px;
+    font-weight: 500;
     border-radius: 50px;
+
 }
 
 .newsletter-subscribe button {
     height: 60px;
-    width: 30%;
+    width: 20%;
     border: none;
-    border-radius:
-        background-color: red;
-    font-size: 38px;
-    font-weight: 780;
+    border-radius: 0 50px 50px 0;
+    margin-left: -35px;
+    background-color: red;
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
 }
