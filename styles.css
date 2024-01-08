@@ -315,3 +315,35 @@ body {
     background: inherit;
     color: #fff
 }
+
+.holidaysSale-images .top {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+
+}
+
+.top .top-01 {
+    margin-bottom: -120px;
+    width: 400px;
+    z-index: 1;
+}
+
+.top .top-02 {
+    width: fit-content;
+    margin-right: -590px;
+    z-index: 2;
+}
+
+.top .top-03 {
+    width: 450px;
+    padding-left: 50px;
+    text-align: right;
+    margin-bottom: -120px;
+}
+
+.holidaysSale-images {}
+
+.holidaysSale-images .base {
+    margin-top: -115px;
+}
