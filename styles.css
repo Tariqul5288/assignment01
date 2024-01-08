@@ -278,7 +278,6 @@ margin-bottom: 0;
 .footer {
     background-color: #070211;
     width: 100%;
-    height: 500px;
 }
 
 .footer-text {
@@ -294,13 +293,7 @@ margin-bottom: 0;
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 50px 240px 140px 140px;
-}
-
-.footer .social-contact {
-    gap: 24px;
-    display: flex;
-    padding: 0% 40%;
+    padding: 40px 240px 40px 140px;
 }
 
 .copywrite-footer button {
@@ -310,6 +303,13 @@ margin-bottom: 0;
     background: inherit;
     color: #fff
 }
+
+.footer .social-contact {
+    gap: 24px;
+    display: flex;
+    padding: 0% 40%;
+}
+
 
 .holidaysSale-images .top {
     display: flex;
