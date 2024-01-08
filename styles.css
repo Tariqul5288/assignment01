@@ -158,11 +158,12 @@ body {
 }
 
 .announcement-offer h3,
-.portfolio-text h3 {
-    color: red;
-    font-size: 24px;
-    font-weight: 500px;
-    margin-bottom: 0;
+.portfolio-text h3,
+{
+color: red;
+font-size: 24px;
+font-weight: 500px;
+margin-bottom: 0;
 }
 
 .announcement-offer h1,
@@ -342,8 +343,43 @@ body {
     margin-bottom: -120px;
 }
 
-.holidaysSale-images {}
+.holidaysSale-images {
+    margin-top: 5px;
+}
 
 .holidaysSale-images .base {
     margin-top: -115px;
+}
+
+.holidaysSale-text {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.holidaysSale-text span {
+    color: red;
+
+}
+
+.holidaysSale-text h3 {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.holidaysSale-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.holidaysSale-text p {
+    color: #100e13;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
